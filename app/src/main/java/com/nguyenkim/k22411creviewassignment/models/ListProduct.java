@@ -9,7 +9,7 @@ public class ListProduct {
     private ListProduct() {}
 
     static {
-        mockProducts.add(new Product(1, "P001", "Silver Hoop", 9.99, "https://picsum.photos/200/200?random=1"));
+        mockProducts.add(new Product(1, "P001", "Silver Hoop", 9.99, "https://app.depict.ai/cdn-cgi/image/width=2560,format=auto/https://app.depict.ai/cdn-cgi/imagedelivery/8RKdy3sDutnDJnoj4RAXLw/c665e375-93e2-4374-e1a6-87d693fe3b00/public"));
         mockProducts.add(new Product(2, "P002", "Gold Stud", 12.49, "https://picsum.photos/200/200?random=2"));
         mockProducts.add(new Product(3, "P003", "Titanium Nose Ring", 14.99, "https://picsum.photos/200/200?random=3"));
         mockProducts.add(new Product(4, "P004", "Ear Cuff", 7.50, "https://picsum.photos/200/200?random=4"));

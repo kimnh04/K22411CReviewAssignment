@@ -1,11 +1,19 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Menu item: Thêm mới -->
     <item
         android:id="@+id/action_add"
         android:title="@string/menu_add"
-        app:showAsAction="never" />
+        android:icon="@drawable/ic_add"
+        android:contentDescription="@string/menu_add"
+        app:showAsAction="always" />
+
     <item
         android:id="@+id/action_about"
         android:title="@string/menu_about"
-        app:showAsAction="never" />
+        android:icon="@drawable/ic_info"
+        android:contentDescription="@string/menu_about"
+        app:showAsAction="always" />
+
 </menu>

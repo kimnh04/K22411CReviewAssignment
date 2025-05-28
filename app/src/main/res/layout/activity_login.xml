@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:orientation="vertical"
@@ -8,6 +9,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <!-- activity_main.xml -->
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/ic_welcome_cat" />
 
     <EditText
         android:id="@+id/edtUsername"
@@ -32,8 +39,10 @@
 
     <Button
         android:id="@+id/btnLogin"
-        android:text="@string/title_login_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"/>
+        android:layout_marginTop="16dp"
+        android:text="@string/title_login_button"
+        android:textColorLink="#FFC107"
+        app:rippleColor="#FF9800" />
 </LinearLayout>
